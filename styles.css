@@ -78,7 +78,6 @@ header{
  }
  .mission{
      max-width:100%;
-     height: 600px;
      background-color: #FFDE59;
      font-family:"Glacial Indifference",sans-serif;
  }
@@ -98,7 +97,7 @@ header{
  .mission_images{
     width:100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin:0 auto;
  }
  
@@ -107,6 +106,58 @@ header{
     height: auto;
     margin:1%;
  }
+ .wildlife{
+     width:100%;
+     background-color:#C9E265;
+     display:flex;
+     justify-content: center;
+     font-family:"Glacial Indifference",sans-serif;
+ }
+ .wildlife_text{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    padding:10px 0;
+ }
+ .wildlife_text h2{
+    font-size: 4rem;
+    font-weight:bold;
+ }
+ .wildlife_text h4{
+    font-size: 2rem;
+ }
+ .wildlife_images img{
+    max-width:30%;
+    height: auto;
+    margin:1%;
+ }
+ .activities{
+    width:100%;
+    background-color: #38B6FF;
+    display:flex;
+    justify-content: center;
+    font-family:"Glacial Indifference",sans-serif;
+ }
+ .activities_text{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    padding:10px 0;
+ }
+ .activities_text h2{
+    font-size: 4rem;
+    font-weight:bold;
+ }
+ .activities_text h4{
+    font-size: 2rem;
+ }
+ .activities_images img{
+    max-width:20%;
+    height: auto;
+    margin:1%;
+ }
+
+
  /*
 @media only screen and (max-width:480px){
     header{
@@ -144,16 +195,22 @@ header{
         text-align:center;
     }
     .logo{
-        max-width:50%;
+        padding-top:6%;
+        max-width:40%;
         height:auto;
         margin-left:30%;
     }
     .nav_links{
         margin-left:10%;
-        margin-bottom:3%;
+        margin-top:3%;
+        margin-bottom:7%;
     }
     .banner{
+        max-width:100%;
         margin-top:150px;
+    }
+    .mission{
+        max-width:100%;
     }
 
 }
