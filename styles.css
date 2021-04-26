@@ -76,6 +76,7 @@ header{
      z-index: 5;
      padding-bottom: 100px;
  }
+ /*Styling for Mission Statement Section*/
  .mission{
      max-width:100%;
      background-color: #FFDE59;
@@ -103,19 +104,19 @@ header{
  }
  .mission_image{
     position:relative;
-    max-width:18.75rem;
+    max-width:620px;
     height:auto;
     margin:1%;
  }
  .mission_image2{
     position:relative;
-    max-width:18.75rem;
+    max-width:620px;
     height:auto;
     margin:1%;
  }
  .mission_image3{
     position:relative;
-    max-width:18.75rem;
+    max-width:620px;
     height:auto;
     margin:1%;
  }
@@ -162,6 +163,7 @@ header{
     text-align:center;
     font-size:1.5rem;
 }
+/*Image overlay styling */
  .image_overlay{
      position:absolute;
      top:0;
@@ -176,7 +178,7 @@ header{
      align-items:center;
      align-content:center;
      opacity:0;
-     transition: opacity 0.25s;
+     transition: opacity 0.3s;
      overflow:hidden;
  }
 
@@ -185,7 +187,7 @@ header{
  }
  .image_overlay >*{
      transform: translateY(20px);
-     transition:transform 0.25s;
+     transition:transform 0.3s;
  }
  .image_overlay:hover{
      opacity:1;
@@ -194,20 +196,6 @@ header{
     transform: translateY(0);
  }
  
- /*
- .mission_images{
-    width:100%;
-    display: flex;
-    justify-content: center;
-    margin:0 auto;
- }
- 
- 
- .mission_images img{
-    max-width:30%;
-    height: auto;
-    margin:1%;
- }*/
  .wildlife{
      width:100%;
      background-color:#C9E265;
@@ -228,11 +216,63 @@ header{
  .wildlife_text h4{
     font-size: 2rem;
  }
+ /*
  .wildlife_images img{
     max-width:30%;
     height: auto;
     margin:1%;
+ }*/
+ .wildlife_image_container{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    margin:0 auto;
  }
+ .wildlife_image{
+    position:relative;
+    max-width:51.375rem;
+    height:auto;
+    margin:1%;
+ }
+ .wildlife_image2{
+    position:relative;
+    max-width:51.375rem;
+    height:auto;
+    margin:1%;
+ }
+ .wildlife_image3{
+    position:relative;
+    max-width:51.375rem;
+    height:auto;
+    margin:1%;
+ }
+ .dolphin{
+    position:block;
+    max-width:100%;
+    height:auto;
+ }
+ .sloth{
+    position:block;
+    max-width:100%;
+    height:auto;
+ }
+ .toucan{
+    position:block;
+    max-width:100%;
+    height:auto;
+ }
+ .wildlife_title{
+    text-align:center;
+    font-size:2rem;
+    font-weight: bold;
+ }
+ .wildlife_description{
+    text-align:center;
+    font-size:1.5rem;
+}
+ 
+
+ /* Styling for activities section */
  .activities{
     width:100%;
     background-color: #38B6FF;
@@ -253,11 +293,62 @@ header{
  .activities_text h4{
     font-size: 2rem;
  }
+ .activities_image_container{
+    width:100%;
+     display:flex;
+     justify-content:space-around;
+     margin:0 auto;
+ }
+ .activities_image{
+    position:relative;
+    max-width:38.75rem;
+    height:auto;
+    margin:1%;
+ }
+ .activities_image2{
+    position:relative;
+    max-width:38.75rem;
+    height:auto;
+    margin:1%;
+ }
+ .activities_image3{
+    position:relative;
+    max-width:38.75rem;
+    height:auto;
+    margin:1%;
+ }
+ .canoe,.camping, .fishing{
+    position:block;
+    max-width:100%;
+    height:auto;
+ }
+ /*
+ .camping{
+    position:block;
+    max-width:100%;
+    height:auto;
+ }
+ .fishing{
+    position:block;
+    max-width:100%;
+    height:auto;
+ }*/
+ .activity_title{
+    text-align:center;
+    font-size:2rem;
+    font-weight: bold;
+ }
+ .activity_description{
+    text-align:center;
+    font-size:1.5rem;
+}
+ /*
  .activities_images img{
     max-width:20%;
     height: auto;
     margin:1%;
- }
+ }*/
+ /* Styling for Team section */
  .team{
     width:100%;
     background-color: #FF914D;
