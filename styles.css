@@ -364,11 +364,25 @@ header{
     font-size: 4rem;
     font-weight:bold;
  }
- .team_images img{
-    max-width:20%;
-    height: auto;
+ .team_image_container{
+    width:100%;
+     display:flex;
+     justify-content:space-around;
+     margin:0 auto;
+ }
+
+ .team_image{
+    position:relative;
+    max-width:350px;
+    height:auto;
     margin:1%;
  }
+ .team_pic{
+    position:block;
+    max-width:100%;
+    height:auto;
+ }
+
  .closing{
     width:100%;
     height:800px;
@@ -476,4 +490,16 @@ header{
         max-width:100%;
     }
 
+}
+@media only screen and (max-width:480px){
+    #footer_title{
+        line-height:0;
+        text-align:center;
+        margin-bottom:1%;
+        align-items:flex-start;
+        line-height:1;
+    }
+    .footer_subtext{
+        align-items:flex-end;
+    }
 }
